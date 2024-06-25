@@ -14,6 +14,7 @@
 		B44987822C212FDD008D2B47 /* OnboardingFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44987812C212FDD008D2B47 /* OnboardingFlowTests.swift */; };
 		B449878C2C212FDD008D2B47 /* OnboardingFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B449878B2C212FDD008D2B47 /* OnboardingFlowUITests.swift */; };
 		B449878E2C212FDD008D2B47 /* OnboardingFlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B449878D2C212FDD008D2B47 /* OnboardingFlowUITestsLaunchTests.swift */; };
+		B449879B2C226FDD008D2B47 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B449879A2C226FDD008D2B47 /* WelcomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B44987872C212FDD008D2B47 /* OnboardingFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnboardingFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B449878B2C212FDD008D2B47 /* OnboardingFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowUITests.swift; sourceTree = "<group>"; };
 		B449878D2C212FDD008D2B47 /* OnboardingFlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B449879A2C226FDD008D2B47 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				B44987702C212FDA008D2B47 /* OnboardingFlowApp.swift */,
 				B44987722C212FDA008D2B47 /* ContentView.swift */,
+				B449879A2C226FDD008D2B47 /* WelcomePage.swift */,
 				B44987742C212FDD008D2B47 /* Assets.xcassets */,
 				B44987762C212FDD008D2B47 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B449879B2C226FDD008D2B47 /* WelcomePage.swift in Sources */,
 				B44987732C212FDA008D2B47 /* ContentView.swift in Sources */,
 				B44987712C212FDA008D2B47 /* OnboardingFlowApp.swift in Sources */,
 			);
